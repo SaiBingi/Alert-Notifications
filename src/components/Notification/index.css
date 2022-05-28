@@ -1,0 +1,23 @@
+.content-cross-icon {
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  border: 2px solid #e5e5e5;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 30px 15px;
+  border-radius: 4px;
+}
+
+.cross-icon {
+  font-size: 22px;
+  flex-shrink: 0;
+  color: #0f172a;
+}
+
+@media screen and (max-width: 767px) {
+  .content-cross-icon {
+    padding: 25px 15px;
+  }
+}
